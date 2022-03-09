@@ -24,8 +24,8 @@ public class Main {
 		} else {
 			String[] palavras = valor.split(" ");
 			System.out.println("Penultima palavra: " + palavras[palavras.length - 2]);
-			
-			if(palavras.length > 4) {
+
+			if (palavras.length > 4) {
 				System.out.println("Texto muito longo");
 			}
 		}

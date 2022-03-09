@@ -14,14 +14,14 @@ public class Main {
 
 	private void start() {
 		Scanner s = new Scanner(System.in);
-		
+
 		System.out.print("String: ");
-		
+
 		String texto = s.nextLine();
-		
+
 		int convertido = Integer.parseInt(texto);
-		
-		System.out.printf("Int: %d" , convertido);
+
+		System.out.printf("Int: %d", convertido);
 
 	}
 
