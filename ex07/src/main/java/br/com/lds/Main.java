@@ -45,7 +45,6 @@ public class Main {
 
 	private void start() {
 
-//		int[] primeiroArray = { 50, -20, 0, 40 };
 		int[] primeiroArray = gerarArrayComValoresAleatorios();
 		int[] segundoArray = gerarArrayComValoresAleatorios();
 
