@@ -29,7 +29,7 @@ public class Main {
 
 		System.out.println("Soma: " + soma);
 
-		Double media = mediaArray(soma, arraysCombinados.length);
+		double media = mediaArray(soma, arraysCombinados.length);
 		
 		exibirMedia(media);
 
@@ -64,17 +64,17 @@ public class Main {
 
 	}
 
-	private Double mediaArray(int soma, int length) {
-		return (double) (soma / length);
+	private double mediaArray(int soma, int length) {
+		return (double) soma/length;
 
 		
 	}
 	
-	private void exibirMedia(Double media) {
+	private void exibirMedia(double media) {
 		
 		DecimalFormat decimalFormat = new DecimalFormat("#.##");
 		
-		System.out.println("Média: " + decimalFormat.format(media));
+		System.out.println("MÃ©dia: " + decimalFormat.format(media));
 	}
 
 }
